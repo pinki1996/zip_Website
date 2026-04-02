@@ -15,15 +15,15 @@ export const Header = (props) => {
               <div className=" intro-text">
                 <Carousel showStatus={false} showThumbs={false}>
                   <div>
-                    <img src={bg2}  className=""/>
+                    <img src={bg2} alt="bg1" className="" />
                     {/* <p className="legend">Legend 1</p> */}
                   </div>
                   <div>
-                    <img src={bg1} />
+                    <img src={bg1} alt="bg2" />
                     {/* <p className="legend">Legend 2</p> */}
                   </div>
                   <div>
-                    <img src={bg3} />
+                    <img src={bg3} alt="bg3" />
                     {/* <p className="legend">Legend 3</p> */}
                   </div>
                 </Carousel>

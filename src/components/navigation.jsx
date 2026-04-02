@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/zip.png";
-import { Contact } from "./contact";
+// import { Contact } from "./contact";
 import { Link } from "react-router-dom";
 
 export const Navigation = (props) => {
