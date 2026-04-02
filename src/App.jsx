@@ -12,6 +12,8 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { Route, Routes } from "react-router-dom";
+import { Login } from "./components/login";
+import { Signin } from "./components/signin";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -37,8 +39,10 @@ const App = () => {
       {/* <Team data={landingPageData.Team} />  */}
       {/* <Contact /> */}
       <Routes>
+        <Route path="/login" element={<Login />}></Route>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/signin" element={<Signin />}></Route>
         <Route
           path="/service"
           element={<Services data={landingPageData.Services} />}

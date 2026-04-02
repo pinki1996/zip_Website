@@ -54,16 +54,6 @@ export const Navigation = (props) => {
               </Link>
             </li>
 
-            {/* <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li> */}
             <li>
               {/* <a href={<Contact/>} className="page-scroll"> */}
               <Link to="/contact" className="page-scroll">
@@ -71,6 +61,17 @@ export const Navigation = (props) => {
               </Link>
               {/* </a> */}
             </li>
+
+            <li>
+              <Link to="/login" className="page-scroll ">
+                <i className="fa fa-user"></i>
+              </Link>
+            </li>
+            {/* <li>
+              <a href="#team" className="page-scroll">
+                Team
+              </a>
+            </li>  */}
           </ul>
         </div>
       </div>
