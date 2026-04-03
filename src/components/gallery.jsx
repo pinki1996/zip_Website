@@ -11,8 +11,10 @@ export const Gallery = (props) => {
           <div className="section-title">
             <h2>Products</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              The 2CC Concealed Zipper is designed to provide a seamless and
+              invisible finish, making it ideal for garments where aesthetics
+              matter. Crafted with fine nylon coil teeth, this zipper blends
+              perfectly into the fabric, ensuring a clean and elegant look.
             </p>
           </div>
           <div className="row">
@@ -23,11 +25,14 @@ export const Gallery = (props) => {
                       key={`${d.title}-${i}`}
                       className="col-sm-6 col-md-4 col-lg-4"
                     >
+                      <p>{d.title}</p>
                       <Image
+                        id={d.id}
                         title={d.title}
                         largeImage={d.largeImage}
                         smallImage={d.smallImage}
                       />
+              
                     </div>
                   ))
                 : "Loading..."}

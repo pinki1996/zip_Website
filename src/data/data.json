@@ -20,46 +20,64 @@
   },
   "Gallery": [
     {
+      "id": 1,
       "title": "Project Title",
       "largeImage": "img/portfolio/817_2_.jpg",
-      "smallImage": "img/portfolio/817_2_.jpg"
+      "smallImage": "img/portfolio/817_2_.jpg",
+      "feature1":"✔️ Invisible finish '–' Hidden teeth for a neat appearance",
+      "feature2":"✔️ Smooth operation '–' Easy to open and close with a slider",
+      "feature3":"✔️ Lightweight & durable – Suitable for delicate and lightweight fabrics",
+      "feature4":"✔️ Fine teeth (2CC) – Ideal for precision stitching and a refined finish",
+      "feature5":"✔️ Wide color range – Matches various fabrics and designs",
+      "application":"Perfect for dresses, skirts, blouses, gowns, cushions, and other fashion or home textile products where a concealed closure is preferred.",
+      "material":"Nylon",
+      "type":"Concealed / Invisible zipper"
     },
     {
+      "id": 2,
       "title": "Project Title",
       "largeImage": "img/portfolio/817_3_.jpg",
       "smallImage": "img/portfolio/817_3_.jpg"
     },
     {
+        "id": 3,
       "title": "Project Title",
       "largeImage": "../images/concealed pics---Knitted/820_1__2_1.jpg",
       "smallImage": "../images/concealed pics---Knitted/820_1__2_1.jpg"
     },
     {
+      "id": 4,
+
       "title": "Project Title",
       "largeImage": "img/portfolio/820_1__2_1.jpg",
       "smallImage": "img/portfolio/820_1__2_1.jpg"
     },
     {
+      "id": 5,
       "title": "Project Title",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
+      "id": 6,
       "title": "Project Title",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
+      "id": 7,
       "title": "Project Title",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
+      "id": 8,
       "title": "Project Title",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
+      "id": 9,
       "title": "Project Title",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"

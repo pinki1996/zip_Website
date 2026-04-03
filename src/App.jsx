@@ -14,6 +14,7 @@ import SmoothScroll from "smooth-scroll";
 import { Route, Routes } from "react-router-dom";
 import { Login } from "./components/login";
 import { Signin } from "./components/signin";
+import { SingleProduct } from "./components/singleProduct";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -43,6 +44,7 @@ const App = () => {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
+        <Route path="/productId/:id" element={<SingleProduct data={landingPageData.Gallery} />}></Route>
         <Route
           path="/service"
           element={<Services data={landingPageData.Services} />}
