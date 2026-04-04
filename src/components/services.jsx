@@ -1,18 +1,18 @@
 import React from "react";
-import { Navigation } from "./navigation";
+// import { Navigation } from "./navigation";
+// import { Footer } from "./footer";
 
 export const Services = (props) => {
   console.log(props.data)
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <div id="services" className="text-center">
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              Reliable Zipper Solutions for Garment Manufacturers Across India
             </p>
           </div>
           <div className="row">
@@ -31,6 +31,7 @@ export const Services = (props) => {
           </div>
         </div>
       </div>
+      {/* <Footer/> */}
     </>
   );
 };

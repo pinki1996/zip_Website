@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import { Navigation } from "./components/navigation";
+import { Navigation } from "./components/navigation";
 // import { Header } from "./components/header";
 // import { Features } from "./components/features";
 import { About } from "./components/about";
@@ -15,6 +15,7 @@ import { Route, Routes } from "react-router-dom";
 import { Login } from "./components/login";
 import { Signin } from "./components/signin";
 import { SingleProduct } from "./components/singleProduct";
+import { Footer } from "./components/footer";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -30,6 +31,7 @@ const App = () => {
 
   return (
     <div>
+      <Navigation />
       {/* <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
@@ -38,13 +40,15 @@ const App = () => {
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} /> */}
       {/* <Team data={landingPageData.Team} />  */}
-      {/* <Contact /> */}
       <Routes>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
-        <Route path="/productId/:id" element={<SingleProduct data={landingPageData.Gallery} />}></Route>
+        <Route
+          path="/productId/:id"
+          element={<SingleProduct data={landingPageData.Gallery} />}
+        ></Route>
         <Route
           path="/service"
           element={<Services data={landingPageData.Services} />}
@@ -55,7 +59,10 @@ const App = () => {
         ></Route>
         {/*<Route path='cart' element={<CartPage/>}></Route>   */}
         <Route path="contact" element={<Contact />}></Route>
+        
       </Routes>
+      <Footer />
+
     </div>
   );
 };

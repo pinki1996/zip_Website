@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router";
-import { Navigation } from "./navigation";
+// import { Navigation } from "./navigation";
+// import { Footer } from "./footer";
 
 export const SingleProduct = (props) => {
   const { id } = useParams();
@@ -25,7 +26,7 @@ export const SingleProduct = (props) => {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
 
       <div id="portfolio">
         <div className="container">
@@ -87,6 +88,7 @@ export const SingleProduct = (props) => {
 
         </div>
       </div>
+      {/* <Footer/> */}
     </>
   );
 };

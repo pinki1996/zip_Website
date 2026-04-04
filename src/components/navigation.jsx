@@ -67,11 +67,11 @@ export const Navigation = (props) => {
                 <i className="fa fa-user"></i>
               </Link>
             </li>
-            {/* <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li>  */}
+            <li>
+               <Link to="/login" className="page-scroll ">
+                <i className="fa fa-cart-plus"></i>
+              </Link>
+            </li> 
           </ul>
         </div>
       </div>

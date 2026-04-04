@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from "./navigation";
+// import { Navigation } from "./navigation";
 import { Header } from "./header";
 import { Features } from "./features";
 import { About } from "./about";
@@ -10,6 +10,7 @@ import { Testimonials } from "./testimonials";
 import { Contact } from "./contact";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
+// import { Footer } from "./footer";
 // import { Route, Routes } from 'react-router-dom';
 import "../App.css";
 
@@ -26,7 +27,7 @@ const Home = () => {
 
   return (
     <div>
-      <Navigation />
+      {/* <Navigation /> */}
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
@@ -35,6 +36,8 @@ const Home = () => {
       <Testimonials data={landingPageData.Testimonials} />
       {/* <Team data={landingPageData.Team} /> */}
       <Contact />
+      {/* <Footer /> */}
+
      
     </div>
     
