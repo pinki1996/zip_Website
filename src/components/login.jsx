@@ -8,7 +8,7 @@ export const Login = () => {
         <div className="container ">
           <div className="col-md-8 justify-content-center">
             <div className="row   section">
-              <div className="col-4 text-center section-title">
+              <div className="text-center section-title">
                 <h2>Login</h2>
               </div>
               <form name="sentMessage" validate>

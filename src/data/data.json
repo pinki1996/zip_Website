@@ -180,22 +180,22 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-magic",
       "title": "Smooth & Invisible Finish",
       "text": "Our concealed zippers are designed to blend seamlessly into garments, giving a clean and premium look."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-shield",
       "title": "Strong & Durable Quality",
       "text": "Manufactured with high-quality materials to ensure long-lasting performance and reliability."
     },
     {
-      "icon": "fa fa-group",
+      "icon": "fa fa-list",
       "title": "Wide Range of Options",
       "text": "Available in multiple sizes, colors, and styles to meet diverse garment requirements."
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-crosshairs",
       "title": "Precision & Consistency",
       "text": "Every zipper is crafted with precision to ensure consistent quality in every batch."
     }
