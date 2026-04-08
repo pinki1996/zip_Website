@@ -735,12 +735,11 @@ label {
 
 
 /* whatApp */
-
 #whatsapp-link {
   position: fixed;
   right: 30px;
-  bottom: 30px;
-  z-index: 1000;
+  bottom: 80px;
+  z-index: 9999;
 
   width: 60px;
   height: 60px;
@@ -755,11 +754,8 @@ label {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* ICON FIX */
 #whatsapp-link i {
-  font-size: 40px;
+  font-size: 28px;
   line-height: 1;
-  color: white !important;
-  margin: 0;
-  padding: 0;
+  color: white;
 }
