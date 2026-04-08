@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../images/zip.png";
-// import { Contact } from "./contact";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
+  const active  = window.location.pathname;
+  console.log(active);
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -14,18 +15,15 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          {/* <a  href="#page-top"> */}
 
-          <Link to="/" className="navbar-brand page-scroll">
+          <NavLink to="/" className="navbar-brand">
             <img src={logo} alt="logo" />
-          </Link>
-          {/* </a>{" "} */}
+          </NavLink>
         </div>
 
         <div
@@ -34,44 +32,34 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <Link to="/" className="page-scroll">
+              <NavLink to="/" end className="nav-link">
                 Home
-              </Link>
+              </NavLink>
             </li>
+
             <li>
-              <Link to="/service" className="page-scroll">
+              <NavLink to="/service" className="nav-link">
                 Services
-              </Link>
+              </NavLink>
             </li>
+
             <li>
-              <Link to="/product" className="page-scroll">
+              <NavLink to="/product" className="nav-link">
                 Product
-              </Link>
+              </NavLink>
             </li>
+
             <li>
-              <Link to="/about" className="page-scroll">
+              <NavLink to="/about" className="nav-link">
                 About
-              </Link>
+              </NavLink>
             </li>
 
             <li>
-              {/* <a href={<Contact/>} className="page-scroll"> */}
-              <Link to="/contact" className="page-scroll">
+              <NavLink to="/contact" className="nav-link">
                 Contact
-              </Link>
-              {/* </a> */}
+              </NavLink>
             </li>
-
-            <li>
-              <Link to="/login" className="page-scroll ">
-                <i className="fa fa-user"></i>
-              </Link>
-            </li>
-            <li>
-               <Link to="/login" className="page-scroll ">
-                <i className="fa fa-cart-plus"></i>
-              </Link>
-            </li> 
           </ul>
         </div>
       </div>

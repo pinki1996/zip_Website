@@ -720,3 +720,15 @@ label {
 .custom-btn i {
   margin-right: 6px;
 }
+
+/* active nav link */
+
+.custom-btn {
+  background-color: #25D366;
+  color: white;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #1ebe5d;
+}

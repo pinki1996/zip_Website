@@ -13,7 +13,7 @@ export const Header = (props) => {
           <div className="">
             <div className="row">
               <div className=" intro-text">
-                <Carousel showStatus={false} showThumbs={false}>
+                <Carousel showStatus={false}  showThumbs={false}>
                   <div>
                     <img src={bg2} alt="bg1" className="" />
                     {/* <p className="legend">Legend 1</p> */}

@@ -6,6 +6,9 @@ import { useParams } from "react-router";
 export const SingleProduct = (props) => {
   const { id } = useParams();
 
+const whatsappMessage = `I want to buy this product: `;
+const whatsappLink = `https://wa.me/919289492133?text=${encodeURIComponent(whatsappMessage)}`;
+
   const item = props.data?.find((d) => String(d.id) === String(id));
 
   if (!props.data || props.data.length === 0) {
@@ -30,10 +33,8 @@ export const SingleProduct = (props) => {
 
       <div id="portfolio">
         <div className="container">
-
           {/* FLEX CONTAINER */}
           <div className="product-flex">
-
             {/* LEFT: IMAGE */}
             <div className="product-image">
               <img
@@ -71,21 +72,22 @@ export const SingleProduct = (props) => {
 
               {/* Buttons */}
               <div style={{ marginTop: "20px" }}>
-                <button className="btn btn-md custom-btn">
+                {/* <button className="btn btn-md custom-btn">
                   <i className="fa fa-shopping-cart"></i>
                   Add to Cart
-                </button>
+                </button> */}
 
-                <button className="btn btn-md custom-btn">
-                  <i className="fa fa-bolt"></i>
-                  Buy Now
-                </button>
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-md custom-btn"
+                >
+                  <i className="fa fa-whatsapp"></i> Buy Now
+                </a>
               </div>
-
             </div>
-
           </div>
-
         </div>
       </div>
       {/* <Footer/> */}

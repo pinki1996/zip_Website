@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import { Navigation } from "./navigation";
 // import { Footer } from "./footer";
 
 export const Services = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   console.log(props.data)
   return (
     <>
