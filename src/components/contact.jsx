@@ -114,7 +114,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
-                Gautam Puri, Phase 1 , New Delhi, India
+                635 Gautam Puri Phase I Badarpur New Delhi 110044
               </p>
             </div>
             <div className="contact-item">
