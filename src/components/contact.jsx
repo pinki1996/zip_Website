@@ -10,10 +10,9 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
-
-useEffect(() => {
-  window.scrollTo(0, 0);
-}, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -137,12 +136,12 @@ useEffect(() => {
           </div>
           <div>
             <iframe
+              title="Google Map Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.8571852584137!2d77.29724818295293!3d28.51394422689437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce75da7945553%3A0x1a9d4d4c36917529!2sGautam%20puri!5e0!3m2!1sen!2sus!4v1775632389984!5m2!1sen!2sus"
               width="100%"
               height="450"
-              allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           {/* <div className="col-md-12">

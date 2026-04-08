@@ -5,7 +5,7 @@ import { Features } from "./features";
 import { About } from "./about";
 import { Services } from "./services";
 import { Gallery } from "./gallery";
-import { Testimonials } from "./testimonials";
+// import { Testimonials } from "./testimonials";
 // import { Team } from "./components/Team";
 import { Contact } from "./contact";
 import JsonData from "../data/data.json";
