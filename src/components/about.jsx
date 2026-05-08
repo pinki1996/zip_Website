@@ -11,13 +11,15 @@ export const About = (props) => {
       <div id="about">
         <div className="container">
           <div className="row">
+           <div className="section-title text-center">
+              <h2 className="about-heading">About Us</h2>
+            </div>
             <div className="col-xs-12 col-md-6">
               {" "}
               <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
             </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
-                <h2>About Us</h2>
                 <p>
                   At D.A ENTERPRISES, based in Delhi NCR, we specialize in
                   delivering high-quality concealed zippers that combine
@@ -37,14 +39,29 @@ export const About = (props) => {
                 <h3>Why Choose Us?</h3>
                 <div className="list-style">
                   <div className="col-lg-6 col-sm-6 col-xs-12">
-                    <ul><i className="fa fa-check"></i>
+                    <ul>
+                      <i className="fa fa-check"></i>
                       High-quality concealed zippers
                     </ul>
-                    <ul><i className="fa fa-check"></i>Reliable supply across India</ul>
-                    <ul><i className="fa fa-check"></i>Competitive pricing structure</ul>
-                    <ul><i className="fa fa-check"></i>Timely delivery & efficient logistics</ul>
-                    <ul><i className="fa fa-check"></i>Strong customer support</ul>
-                    <ul><i className="fa fa-check"></i>Trusted by manufacturers & exporters</ul>
+                    <ul>
+                      <i className="fa fa-check"></i>Reliable supply across
+                      India
+                    </ul>
+                    <ul>
+                      <i className="fa fa-check"></i>Competitive pricing
+                      structure
+                    </ul>
+                    <ul>
+                      <i className="fa fa-check"></i>Timely delivery & efficient
+                      logistics
+                    </ul>
+                    <ul>
+                      <i className="fa fa-check"></i>Strong customer support
+                    </ul>
+                    <ul>
+                      <i className="fa fa-check"></i>Trusted by manufacturers &
+                      exporters
+                    </ul>
                   </div>
                 </div>
               </div>

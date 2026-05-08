@@ -22,7 +22,8 @@ export const Navigation = () => {
           </button>
 
           <NavLink to="/" className="navbar-brand">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="ZIPHOSA — Powered by D.A. ENTERPRISES" />
+            {/* <p></p> */}
           </NavLink>
         </div>
 

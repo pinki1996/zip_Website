@@ -13,6 +13,7 @@ import SmoothScroll from "smooth-scroll";
 // import { Footer } from "./footer";
 // import { Route, Routes } from 'react-router-dom';
 import "../App.css";
+import { Shades } from "./shades";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -33,10 +34,12 @@ const Home = () => {
     <div>
       {/* <Navigation /> */}
       <Header data={landingPageData.Header} />
+      <Gallery data={landingPageData.Gallery} />
+      <Shades />
       <Features data={landingPageData.Features} />
       
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
+      
       <About data={landingPageData.About} />
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
       {/* <Team data={landingPageData.Team} /> */}

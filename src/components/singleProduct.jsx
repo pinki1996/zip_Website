@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
-import size from "../images/Size.jpeg";
+// import size from "../images/Size.jpeg";
 import color from "../images/color.jpeg";
 // import { Navigation } from "./navigation";
 // import { Footer } from "./footer";
 
 export const SingleProduct = (props) => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const { id } = useParams();
 
   const whatsappMessage = `I want to buy this product: `;
@@ -50,21 +50,15 @@ export const SingleProduct = (props) => {
                 }}
               />
               <div className="size-color-images">
-                <img
-                  src={size}
-                  alt="Size Chart"
-                  onError={(e) => {
-                    e.target.src = "https://via.placeholder.com/400";
-                  }}
-                />
-
-                <img
-                  src={color}
-                  alt="Color Chart"
-                  onError={(e) => {
-                    e.target.src = "https://via.placeholder.com/400";
-                  }}
-                />
+                <div className="highlight-image">
+                  <img
+                    src={color}
+                    alt="Color Chart"
+                    onError={(e) => {
+                      e.target.src = "https://via.placeholder.com/400";
+                    }}
+                  />
+                </div>
               </div>
             </div>
 
