@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router";
 import size from "../images/Size.jpeg";
 import color from "../images/color.jpeg";
@@ -6,6 +6,9 @@ import color from "../images/color.jpeg";
 // import { Footer } from "./footer";
 
 export const SingleProduct = (props) => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   const { id } = useParams();
 
   const whatsappMessage = `I want to buy this product: `;

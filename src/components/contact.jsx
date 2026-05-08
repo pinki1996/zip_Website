@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
-import emailjs from "emailjs-com";
-import React from "react";
+import React, { useState, useEffect } from "react";
 // import { Navigation } from "./navigation";
 // import { Footer } from "./footer";
 
@@ -9,7 +7,8 @@ const initialState = {
   email: "",
   message: "",
 };
-export const Contact = (props) => {
+
+export const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -18,47 +17,47 @@ export const Contact = (props) => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_PUBLIC_KEY",
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        },
-      );
+    setState((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
   };
+
+  // WhatsApp Message
+  const whatsappMessage = `
+Name: ${name}
+
+Email: ${email}
+
+Message: ${message}
+`;
+
+  const whatsappLink = `https://wa.me/919289492133?text=${encodeURIComponent(
+    whatsappMessage,
+  )}`;
+
   return (
     <div>
-      {/* <Navigation/> */}
+      {/* <Navigation /> */}
+
       <div id="contact">
         <div className="container">
+          {/* Contact Form */}
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
+
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Please fill out the form below and send your message directly
+                  on WhatsApp.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+
+              <form>
                 <div className="row">
+                  {/* Name */}
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
@@ -68,11 +67,13 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name}
                         onChange={handleChange}
                       />
-                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
+
+                  {/* Email */}
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
@@ -82,12 +83,14 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email}
                         onChange={handleChange}
                       />
-                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
                 </div>
+
+                {/* Message */}
                 <div className="form-group">
                   <textarea
                     name="message"
@@ -96,20 +99,34 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
-                  <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
+
+                {/* WhatsApp Button */}
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-custom btn-lg"
+                  onClick={() => {
+                    setTimeout(() => {
+                      setState(initialState);
+                    }, 500);
+                  }}
+                >
+                  <i className="fa fa-whatsapp"></i> Send Message
+                </a>
               </form>
             </div>
           </div>
+
+          {/* Contact Info */}
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
+
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
@@ -117,59 +134,42 @@ export const Contact = (props) => {
                 635 Gautam Puri Phase I Badarpur New Delhi 110044
               </p>
             </div>
+
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
-                </span>{" "}
+                </span>
                 +91-9289492133
               </p>
             </div>
+
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
+                </span>
                 d.aenterprises635@gmail.com
               </p>
             </div>
           </div>
-          <div>
+
+          {/* Google Map */}
+          <div style={{ marginTop: "40px" }}>
             <iframe
               title="Google Map Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.8571852584137!2d77.29724818295293!3d28.51394422689437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce75da7945553%3A0x1a9d4d4c36917529!2sGautam%20puri!5e0!3m2!1sen!2sus!4v1775632389984!5m2!1sen!2sus"
               width="100%"
               height="450"
+              style={{ border: 0 }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          {/* <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
-      {/* <Footer/> */}
+
+      {/* <Footer /> */}
     </div>
   );
 };
