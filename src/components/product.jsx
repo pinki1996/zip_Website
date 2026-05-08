@@ -49,7 +49,7 @@ export const Product = (props) => {
                     >
                       <Image
                         id={d.id}
-                        title={d.title}
+                        // title={d.title}
                         largeImage={d.largeImage}
                         smallImage={d.smallImage}
                         className="product-img"

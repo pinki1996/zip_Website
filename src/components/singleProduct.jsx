@@ -70,7 +70,7 @@ export const SingleProduct = (props) => {
 
             {/* RIGHT: DETAILS */}
             <div className="product-details">
-              <h1>{title}</h1>
+              <h1>Knitted-Zipers</h1>
               {/* <h3>Product ID: {id}</h3> */}
 
               <h3>Features</h3>
