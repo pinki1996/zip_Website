@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
+// import { Gallery } from "./components/gallery";
 import HomePage from "./components/home";
+import { Product } from "./components/product";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import { Route, Routes } from "react-router-dom";
@@ -48,7 +49,7 @@ const App = () => {
           />
           <Route
             path="/product"
-            element={<Gallery data={landingPageData.Gallery} />}
+            element={<Product data={landingPageData.Gallery} />}
           />
           <Route path="/contact" element={<Contact />} />
         </Routes>

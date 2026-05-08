@@ -1,13 +1,15 @@
 import React from "react";
 import { useParams } from "react-router";
+import size from "../images/Size.jpeg";
+import color from "../images/color.jpeg";
 // import { Navigation } from "./navigation";
 // import { Footer } from "./footer";
 
 export const SingleProduct = (props) => {
   const { id } = useParams();
 
-const whatsappMessage = `I want to buy this product: `;
-const whatsappLink = `https://wa.me/919289492133?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappMessage = `I want to buy this product: `;
+  const whatsappLink = `https://wa.me/919289492133?text=${encodeURIComponent(whatsappMessage)}`;
 
   const item = props.data?.find((d) => String(d.id) === String(id));
 
@@ -44,12 +46,29 @@ const whatsappLink = `https://wa.me/919289492133?text=${encodeURIComponent(whats
                   e.target.src = "https://via.placeholder.com/400";
                 }}
               />
+              <div className="size-color-images">
+                <img
+                  src={size}
+                  alt="Size Chart"
+                  onError={(e) => {
+                    e.target.src = "https://via.placeholder.com/400";
+                  }}
+                />
+
+                <img
+                  src={color}
+                  alt="Color Chart"
+                  onError={(e) => {
+                    e.target.src = "https://via.placeholder.com/400";
+                  }}
+                />
+              </div>
             </div>
 
             {/* RIGHT: DETAILS */}
             <div className="product-details">
               <h1>{title}</h1>
-              <h3>Product ID: {id}</h3>
+              {/* <h3>Product ID: {id}</h3> */}
 
               <h3>Features</h3>
               <ol>

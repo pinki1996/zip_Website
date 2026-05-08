@@ -22,66 +22,620 @@
     {
       "id": 1,
       "title": "Project Title",
-      "largeImage": "img/portfolio/817_2_.jpg",
-      "smallImage": "img/portfolio/817_2_.jpg",
-      "feature1":"✔️ Invisible finish '–' Hidden teeth for a neat appearance",
-      "feature2":"✔️ Smooth operation '–' Easy to open and close with a slider",
-      "feature3":"✔️ Lightweight & durable – Suitable for delicate and lightweight fabrics",
-      "feature4":"✔️ Fine teeth (2CC) – Ideal for precision stitching and a refined finish",
-      "feature5":"✔️ Wide color range – Matches various fabrics and designs",
-      "application":"Perfect for dresses, skirts, blouses, gowns, cushions, and other fashion or home textile products where a concealed closure is preferred.",
-      "material":"Nylon",
-      "type":"Concealed / Invisible zipper"
+      "largeImage": "img/portfolio/p1.jpeg",
+      "smallImage": "img/portfolio/p1.jpeg"
+      
+
     },
     {
       "id": 2,
       "title": "Project Title",
-      "largeImage": "img/portfolio/817_3_.jpg",
-      "smallImage": "img/portfolio/817_3_.jpg"
+      "largeImage": "img/portfolio/p2.jpeg",
+      "smallImage": "img/portfolio/p2.jpeg"
     },
     {
         "id": 3,
       "title": "Project Title",
-      "largeImage": "../images/concealed pics---Knitted/820_1__2_1.jpg",
-      "smallImage": "../images/concealed pics---Knitted/820_1__2_1.jpg"
+      "largeImage": "img/portfolio/p3.jpeg",
+      "smallImage": "img/portfolio/p3.jpeg"
     },
     {
       "id": 4,
 
       "title": "Project Title",
-      "largeImage": "img/portfolio/820_1__2_1.jpg",
-      "smallImage": "img/portfolio/820_1__2_1.jpg"
+      "largeImage": "img/portfolio/p4.jpeg",
+      "smallImage": "img/portfolio/p4.jpeg"
     },
-    {
-      "id": 5,
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
+     {
       "id": 6,
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/portfolio/p6.jpeg",
+      "smallImage": "img/portfolio/p6.jpeg"
     },
     {
       "id": 7,
       "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/portfolio/p7.jpeg",
+      "smallImage": "img/portfolio/p7.jpeg"
     },
     {
       "id": 8,
       "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/portfolio/p8.jpeg",
+      "smallImage": "img/portfolio/p8.jpeg"
     },
     {
       "id": 9,
+      "title": "Project Title", 
+      "largeImage": "img/portfolio/p9.jpeg",
+      "smallImage": "img/portfolio/p9.jpeg"
+    },  
+    {
+      "id": 10,
       "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/portfolio/p10.jpeg",
+      "smallImage": "img/portfolio/p10.jpeg"
+    },
+    {
+      "id": 11,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p11.jpeg",
+      "smallImage": "img/portfolio/p11.jpeg"
+    },
+    {
+      "id": 12,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p12.jpeg",
+      "smallImage": "img/portfolio/p12.jpeg"
+    },
+     {
+      "id": 13,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p13.jpeg",
+      "smallImage": "img/portfolio/p13.jpeg"
+    },
+    {
+      "id": 14,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p14.jpeg",
+      "smallImage": "img/portfolio/p14.jpeg"
+    },
+    {
+      "id": 15,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p15.jpeg",
+      "smallImage": "img/portfolio/p15.jpeg"
+    },
+    {
+      "id": 16,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p16.jpeg",
+      "smallImage": "img/portfolio/p16.jpeg"
+    },
+    {
+      "id": 17,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p17.jpeg",
+      "smallImage": "img/portfolio/p17.jpeg"
+    },
+    {
+      "id": 18,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p18.jpeg",
+      "smallImage": "img/portfolio/p18.jpeg"
+    },
+    {
+      "id": 19,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p19.jpeg",
+      "smallImage": "img/portfolio/p19.jpeg"
+    },
+    {
+      "id": 20,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p20.jpeg",
+      "smallImage": "img/portfolio/p20.jpeg"
+    },
+    {
+      "id": 21,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p21.jpeg",
+      "smallImage": "img/portfolio/p21.jpeg"
+    },
+    {
+      "id": 22,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p22.jpeg",
+      "smallImage": "img/portfolio/p22.jpeg"
+    },
+    {
+      "id": 23,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p23.jpeg",
+      "smallImage": "img/portfolio/p23.jpeg"
+    },
+    {
+      "id": 24,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p24.jpeg",
+      "smallImage": "img/portfolio/p24.jpeg"
+    },
+    {
+      "id": 25,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p25.jpeg",
+      "smallImage": "img/portfolio/p25.jpeg"
+    },
+    {
+      "id": 26,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p26.jpeg",
+      "smallImage": "img/portfolio/p26.jpeg"
+    },
+    {
+      "id": 27,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p27.jpeg",
+      "smallImage": "img/portfolio/p27.jpeg"
+    },
+    {
+      "id": 28,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p28.jpeg",
+      "smallImage": "img/portfolio/p28.jpeg"
+    },
+    {
+      "id": 29,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p29.jpeg",
+      "smallImage": "img/portfolio/p29.jpeg"
+    },
+    {
+      "id": 30,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p30.jpeg",
+      "smallImage": "img/portfolio/p30.jpeg"
+    },
+     {
+      "id": 31,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p31.jpeg",
+      "smallImage": "img/portfolio/p31.jpeg"
+    },
+    {
+      "id": 32,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p32.jpeg",
+      "smallImage": "img/portfolio/p32.jpeg"
+    },
+     {
+      "id": 33,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p33.jpeg",
+      "smallImage": "img/portfolio/p33.jpeg"
+    },
+    {
+      "id": 34,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p34.jpeg",
+      "smallImage": "img/portfolio/p34.jpeg"
+    },
+    {
+      "id": 35,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p35.jpeg",
+      "smallImage": "img/portfolio/p35.jpeg"
+    },
+    {
+      "id": 36,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p36.jpeg",
+      "smallImage": "img/portfolio/p36.jpeg"
+    },
+     {
+      "id": 37,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p37.jpeg",
+      "smallImage": "img/portfolio/p37.jpeg"
+    },
+    {
+      "id": 38,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p38.jpeg",
+      "smallImage": "img/portfolio/p38.jpeg"
+    },
+    {
+      "id": 39,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p39.jpeg",
+      "smallImage": "img/portfolio/p39.jpeg"
+    },
+    {
+      "id": 40,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p40.jpeg",
+      "smallImage": "img/portfolio/p40.jpeg"
+    },
+     {
+      "id": 41,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p41.jpeg",
+      "smallImage": "img/portfolio/p41.jpeg"
+    },
+    {
+      "id": 42,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p42.jpeg",
+      "smallImage": "img/portfolio/p42.jpeg"
+    },
+    {
+      "id": 43,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p43.jpeg",
+      "smallImage": "img/portfolio/p43.jpeg"
+    },
+    {
+      "id": 44,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p44.jpeg",
+      "smallImage": "img/portfolio/p44.jpeg"
+    },
+    {
+      "id": 45,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p45.jpeg",
+      "smallImage": "img/portfolio/p45.jpeg"
+    },
+     {
+      "id": 46,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p46.jpeg",
+      "smallImage": "img/portfolio/p46.jpeg"
+    },
+    {
+      "id": 47,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p47.jpeg",
+      "smallImage": "img/portfolio/p47.jpeg"
+    },
+    {
+      "id": 48,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p48.jpeg",
+      "smallImage": "img/portfolio/p48.jpeg"
+    },
+     {
+      "id": 49,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p49.jpeg",
+      "smallImage": "img/portfolio/p49.jpeg"
+    },
+    {
+      "id": 50,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p50.jpeg",
+      "smallImage": "img/portfolio/p50.jpeg"
+    },
+     {
+      "id": 51,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p51.jpeg",
+      "smallImage": "img/portfolio/p51.jpeg"
+    },
+    {
+      "id": 52,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p52.jpeg",
+      "smallImage": "img/portfolio/p52.jpeg"
+    },
+    {
+      "id": 53,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p53.jpeg",
+      "smallImage": "img/portfolio/p53.jpeg"
+    },
+     {
+      "id": 54,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p54.jpeg",
+      "smallImage": "img/portfolio/p54.jpeg"
+    },
+    {
+      "id": 55,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p55.jpeg",
+      "smallImage": "img/portfolio/p55.jpeg"
+    },
+    {
+      "id": 56,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p56.jpeg",
+      "smallImage": "img/portfolio/p56.jpeg"
+    },
+     {
+      "id": 57,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p57.jpeg",
+      "smallImage": "img/portfolio/p57.jpeg"
+    },
+    {
+      "id": 58,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p58.jpeg",
+      "smallImage": "img/portfolio/p58.jpeg"
+    },
+    {
+      "id": 59,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p59.jpeg",
+      "smallImage": "img/portfolio/p59.jpeg"
+    },
+     {
+      "id": 60,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p60.jpeg",
+      "smallImage": "img/portfolio/p60.jpeg"
+    },
+     {
+      "id": 61,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p61.jpeg",
+      "smallImage": "img/portfolio/p61.jpeg"
+    },
+    {
+      "id": 62,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p62.jpeg",
+      "smallImage": "img/portfolio/p62.jpeg"
+    },
+    {
+      "id": 63,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p63.jpeg",
+      "smallImage": "img/portfolio/p63.jpeg"
+    },
+     {
+      "id": 64,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p64.jpeg",
+      "smallImage": "img/portfolio/p64.jpeg"
+    },
+    {
+      "id": 65,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p65.jpeg",
+      "smallImage": "img/portfolio/p65.jpeg"
+    },
+     {
+      "id": 66,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p66.jpeg",
+      "smallImage": "img/portfolio/p66.jpeg"
+    },
+    {
+      "id": 67,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p67.jpeg",
+      "smallImage": "img/portfolio/p67.jpeg"
+    },
+    {
+      "id": 68,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p68.jpeg",
+      "smallImage": "img/portfolio/p68.jpeg"
+    },
+     {
+      "id": 69,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p69.jpeg",
+      "smallImage": "img/portfolio/p69.jpeg"
+    },
+    {
+      "id": 70,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p70.jpeg",
+      "smallImage": "img/portfolio/p70.jpeg"
+    },
+     {
+      "id": 71,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p71.jpeg",
+      "smallImage": "img/portfolio/p71.jpeg"
+    },
+    {
+      "id": 72,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p72.jpeg",
+      "smallImage": "img/portfolio/p72.jpeg"
+    },
+     {
+      "id": 73,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p73.jpeg",
+      "smallImage": "img/portfolio/p73.jpeg"
+    },
+    {
+      "id": 74,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p74.jpeg",
+      "smallImage": "img/portfolio/p74.jpeg"
+    },
+    {
+      "id": 75,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p75.jpeg",
+      "smallImage": "img/portfolio/p75.jpeg"
+    },
+     {
+      "id": 76,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p76.jpeg",
+      "smallImage": "img/portfolio/p76.jpeg"
+    },
+    {
+      "id": 77,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p77.jpeg",
+      "smallImage": "img/portfolio/p77.jpeg"
+    },
+    {
+      "id": 78,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p78.jpeg",
+      "smallImage": "img/portfolio/p78.jpeg"
+    },
+     {
+      "id": 79,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p79.jpeg",
+      "smallImage": "img/portfolio/p79.jpeg"
+    },
+    {
+      "id": 80,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p80.jpeg",
+      "smallImage": "img/portfolio/p80.jpeg"
+    },
+     {
+      "id": 81,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p81.jpeg",
+      "smallImage": "img/portfolio/p81.jpeg"
+    },
+    {
+      "id": 82,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p82.jpeg",
+      "smallImage": "img/portfolio/p82.jpeg"
+    },
+    {
+      "id": 83,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p83.jpeg",
+      "smallImage": "img/portfolio/p83.jpeg"
+    },
+     {
+      "id": 84,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p84.jpeg",
+      "smallImage": "img/portfolio/p84.jpeg"
+    },
+    {
+      "id": 85,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p85.jpeg",
+      "smallImage": "img/portfolio/p85.jpeg"
+    },
+     {
+      "id": 86,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p86.jpeg",
+      "smallImage": "img/portfolio/p86.jpeg"
+    },
+    {
+      "id": 87,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p87.jpeg",
+      "smallImage": "img/portfolio/p87.jpeg"
+    },
+    {
+      "id": 88,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p88.jpeg",
+      "smallImage": "img/portfolio/p88.jpeg"
+    },
+     {
+      "id": 89,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p89.jpeg",
+      "smallImage": "img/portfolio/p89.jpeg"
+    },
+    {
+      "id": 90,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p90.jpeg",
+      "smallImage": "img/portfolio/p90.jpeg"
+    },
+     {
+      "id": 91,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p91.jpeg",
+      "smallImage": "img/portfolio/p91.jpeg"
+    },
+    {
+      "id": 92,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p92.jpeg",
+      "smallImage": "img/portfolio/p92.jpeg"
+    },
+    {
+      "id": 93,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p93.jpeg",
+      "smallImage": "img/portfolio/p93.jpeg"
+    },
+     {
+      "id": 94,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p94.jpeg",
+      "smallImage": "img/portfolio/p94.jpeg"
+    },
+    {
+      "id": 95,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p95.jpeg",
+      "smallImage": "img/portfolio/p95.jpeg"
+    },
+     {
+      "id": 96,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p96.jpeg",
+      "smallImage": "img/portfolio/p96.jpeg"
+    },
+    {
+      "id": 97,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p97.jpeg",
+      "smallImage": "img/portfolio/p97.jpeg"
+    },
+    {
+      "id": 98,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p98.jpeg",
+      "smallImage": "img/portfolio/p98.jpeg"
+    },
+     {
+      "id": 99,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p99.jpeg",
+      "smallImage": "img/portfolio/p99.jpeg"
+    },
+    {
+      "id": 100,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p100.jpeg",
+      "smallImage": "img/portfolio/p100.jpeg"
+    },
+     {
+      "id": 101,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p101.jpeg",
+      "smallImage": "img/portfolio/p101.jpeg"
+    },
+    {
+      "id": 102,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p102.jpeg",
+      "smallImage": "img/portfolio/p102.jpeg"
+    },
+     {
+      "id": 103,
+      "title": "Project Title",
+      "largeImage": "img/portfolio/p103.jpeg",
+      "smallImage": "img/portfolio/p103.jpeg"
     }
+
+
   ],
   "Services": [
     {

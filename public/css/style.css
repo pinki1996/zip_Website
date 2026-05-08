@@ -759,3 +759,95 @@ label {
   line-height: 1;
   color: white;
 }
+
+.size-color-images {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.size-color-images img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  background: #fff;
+}
+
+
+
+.product-img {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+}
+.portfolio-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+
+
+/* see more button */
+
+.see-more-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-right: 15px;
+}
+
+.see-more-btn {
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.see-more-btn:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+
+
+/* pagination */
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.pagination-btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #f1f1f1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pagination-btn:hover {
+  background: #6372ff;
+  color: white;
+}
+
+.active-page {
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  color: white;
+}

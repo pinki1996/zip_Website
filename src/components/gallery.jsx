@@ -1,6 +1,7 @@
 import { Image } from "./image";
 import React, { useEffect } from "react";
 import { Navigation } from "./navigation";
+import { Link } from "react-router-dom";
 
 export const Gallery = (props) => {
   useEffect(() => {
@@ -20,27 +21,33 @@ export const Gallery = (props) => {
               perfectly into the fabric, ensuring a clean and elegant look.
             </p>
           </div>
+
+          <div className="see-more-container">
+            <Link to="/product" className="see-more-btn">
+              See More
+            </Link>
+          </div>
           <div className="row">
             <div className="portfolio-items">
               {props.data
-                ? props.data.map((d, i) => (
+                ? props.data.slice(0, 6).map((d, i) => (
                     <div
                       key={`${d.title}-${i}`}
                       className="col-sm-6 col-md-4 col-lg-4"
                     >
-                      <p>{d.title}</p>
                       <Image
                         id={d.id}
                         title={d.title}
                         largeImage={d.largeImage}
                         smallImage={d.smallImage}
+                        className="product-img"
                       />
-              
                     </div>
                   ))
                 : "Loading..."}
             </div>
           </div>
+          
         </div>
       </div>
     </>
